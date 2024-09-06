@@ -1,12 +1,11 @@
 package commandPattern;
 
 public class Tv {
-
     public String switchOn() {
-        return "Tv is switched-on!";
+        return "TV is switched on!";
     }
 
-    public String switchOff(){
-        return "Tv is switched-off";
+    public String switchOff() {
+        return "TV is switched off!";
     }
 }

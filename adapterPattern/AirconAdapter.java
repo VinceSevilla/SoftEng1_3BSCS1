@@ -3,7 +3,7 @@ package adapterPattern;
 public class AirconAdapter implements RemoteControllerFunction {
     private AirCon airCon;
 
-    public AirconAdapter(AirCon airCon){
+    public AirconAdapter(AirCon airCon) {
         this.airCon = airCon;
     }
 

@@ -1,20 +1,19 @@
 package adapterPattern;
 
 public class Speaker {
-    public String speakerOn(){
+    public String speakerOn() {
         return "Bluetooth speaker is on!";
     }
 
-    public String speakerOff(){
+    public String speakerOff() {
         return "Bluetooth speaker is off!";
     }
 
-    public String volumeUp(){
+    public String volumeUp() {
         return "Bluetooth speaker is increasing volume!";
     }
 
-    public String voulumeDown(){
+    public String volumeDown() {
         return "Bluetooth speaker is decreasing volume!";
     }
-
 }

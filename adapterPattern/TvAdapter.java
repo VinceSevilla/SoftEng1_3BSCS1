@@ -1,12 +1,11 @@
 package adapterPattern;
 
-public class TvAdapter implements  RemoteControllerFunction {
+public class TvAdapter implements RemoteControllerFunction {
     private Tv tv;
 
-    public TvAdapter(Tv tv){
+    public TvAdapter(Tv tv) {
         this.tv = tv;
     }
-
 
     @Override
     public String powerOn() {

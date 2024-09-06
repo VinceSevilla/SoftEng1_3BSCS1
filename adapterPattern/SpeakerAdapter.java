@@ -3,7 +3,7 @@ package adapterPattern;
 public class SpeakerAdapter implements RemoteControllerFunction {
     private Speaker speaker;
 
-    public SpeakerAdapter(Speaker speaker){
+    public SpeakerAdapter(Speaker speaker) {
         this.speaker = speaker;
     }
 
@@ -24,6 +24,6 @@ public class SpeakerAdapter implements RemoteControllerFunction {
 
     @Override
     public String pressMinusButton() {
-        return speaker.voulumeDown();
+        return speaker.volumeDown();
     }
 }

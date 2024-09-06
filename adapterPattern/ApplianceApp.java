@@ -2,8 +2,7 @@ package adapterPattern;
 
 public class ApplianceApp {
 
-    public static void main(String[] args){
-
+    public static void main(String[] args) {
         Tv tv = new Tv();
         RemoteControllerFunction tvRc = new TvAdapter(tv);
 
@@ -13,17 +12,16 @@ public class ApplianceApp {
         Speaker speaker = new Speaker();
         RemoteControllerFunction speakerRc = new SpeakerAdapter(speaker);
 
-        //turn on the appliances
+        // Turn on the appliances
         System.out.println(tvRc.powerOn());
         System.out.println(airConRc.powerOn());
         System.out.println(speakerRc.powerOn());
 
         System.out.println();
 
-        //press button up
+        // Press button up
         System.out.println(tvRc.pressPlusButton());
         System.out.println(airConRc.pressPlusButton());
         System.out.println(speakerRc.pressPlusButton());
-
     }
 }
